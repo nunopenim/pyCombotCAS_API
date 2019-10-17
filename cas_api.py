@@ -1,7 +1,7 @@
 import urllib.request as url
 import json
 
-VERSION = "1.0"
+VERSION = "1.1"
 CAS_QUERY_URL = "https://combot.org/api/cas/check?user_id="
 
 def get_user_data(user_id):
@@ -17,3 +17,11 @@ def banchecker(user_id):
 
 def vercheck() -> str:
     return str(VERSION)
+
+def offenses(userdata):
+    try:
+        reason = json.loads(userdata['result'].read().decode())
+        offtime = reason['offenses']
+        return str(offtime)
+    except:
+        return "None"
