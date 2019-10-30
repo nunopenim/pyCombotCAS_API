@@ -40,7 +40,7 @@ informative use.
 This method will fetch and parse the userdata to get the number of offenses of the refered user_id.
 It takes as argument an int (or string) that matches a user. It then tries to get the offenses of
 that user. If successful it will return a string with a number, which matches the offense number.
-Otherwise it will return "None" (not the Python None object). Return type is always a string.
+Otherwise it will return None.
 
 # timeadded(user_id)
 
@@ -48,4 +48,4 @@ This function fetches and parses the user_id data to get a time (in Epoch format
 other functions, it returns a string, but not before converting it (using Python's datetime library)
 in a human readable format. It will then return the time in the format of hh:mm:ss, dd-mm-yyyy. This
 time is in UTC format, for international use. If it fails to get a time (because user might not be
-CAS banned at all), it returns "None" (again, not the Python None object).
+CAS banned at all), it returns None.
