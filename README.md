@@ -35,7 +35,7 @@ That's pretty much it. Enjoy.
 # Extra info:
 
 I reserve the rights to take down this project, change any of these information/disclaimer files, and to revoke
-or change the license under the project is built if needed.
+or change the license under which the project is built, if needed.
 
 # References:
 
@@ -43,4 +43,4 @@ All the methods here created were developed by myself, so the code belongs to me
 which means you are free to use it, even for commercial purposes, as long as it stays open source. For the development
 process (past, present and future), I used the [Combot Anti-Spam System (CAS) API documentation](https://combot.org/cas/api)
 as a reference. The Combot Anti-Spam System and all the data, services and products provided does not belong to me in
-any way shape or form.
+any way, shape or form.
