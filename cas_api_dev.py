@@ -3,8 +3,8 @@ import json
 import datetime
 
 DEVUSER = "" #user ID that is banned for testing
-VERSION = "1.3.1 - DEV"
-CAS_QUERY_URL = "https://combot.org/api/cas/check?user_id="
+VERSION = "1.3.2 - DEV"
+CAS_QUERY_URL = "https://api.cas.chat/check?user_id="
 DL_DIR = "./csvExports"
 
 def get_user_data(user_id):
