@@ -1,11 +1,11 @@
 # DON'T BE A DICK PUBLIC LICENSE B
 
-> Version 1.0, July 2020
+> Version 1.1, October 2020
 
 > Copyright (C) 2020 Nuno Penim
  
  Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document.
+ copies (as long as the name changes) of this license document.
 
 > DON'T BE A DICK PUBLIC LICENSE B
 > TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
